@@ -1,0 +1,34 @@
+{
+  "name": "Webpack_Bootstrap5_Samples",
+  "version": "1.0.0",
+  "description": "This is a Bootstrap and WebPack sample that will be used as a template for data visualizations",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/steveyoungca/Webpack_Bootstrap5_Samples.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/steveyoungca/Webpack_Bootstrap5_Samples/issues"
+  },
+  "homepage": "https://github.com/steveyoungca/Webpack_Bootstrap5_Samples#readme",
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "csv-loader": "^3.0.3",
+    "file-loader": "^6.1.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-log": "^3.0.1",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
