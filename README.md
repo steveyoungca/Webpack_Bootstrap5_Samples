@@ -48,3 +48,17 @@ log.info('Jingle Bells, Batman Smells');
 log.warn('Robin laid an egg');
 log.error('The Batmobile lost a wheel');
 log.debug('And the Joker got away');
+
+# Installing Bootstrap5 nd Webpack 5
+https://www.5balloons.info/setting-up-bootstrap-5-workflow-using-laravel-mix-webpack/
+
+This gets your install
+
+
+https://getbootstrap.com/docs/4.0/getting-started/webpack/
+this is cool, instlling min css you bypass scss stuffv !!
+Importing Compiled CSS
+Alternatively, you may use Bootstrap’s ready-to-use css by simply adding this line to your project’s entry point:
+
+Copy
+import 'bootstrap/dist/css/bootstrap.min.css';
