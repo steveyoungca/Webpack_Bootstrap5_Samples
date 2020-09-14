@@ -4,6 +4,7 @@ import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import printMe from './print.js';
+import Greetings from './my-helper-module.js';
 import Icon from './icon.png';
 import Data from './data.xml';
 

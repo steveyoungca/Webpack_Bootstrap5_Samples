@@ -7,11 +7,24 @@ module.exports = {
         app: './src/index.js',
         print: './src/print.js',
     },
-    mode: 'production',
+    devtool: 'inline-source-map',
+    devServer: {
+        contentBase: './dist',
+        index: 'index.html',
+        port: 8080,
+        writeToDisk: true,
+        open: true
+    },
+    mode: 'development',
+    watch: true,
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: 'Output Management',
+            hash: true,
+            title: 'My Awesome application with HTML Template',
+            myPageHeader: 'Hello World',
+            template: './src/index.html',
+            filename: './index.html' //relative to root of the application
         }),
     ],
     output: {
