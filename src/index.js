@@ -1,5 +1,7 @@
 import _ from 'lodash';
 import 'bootstrap';
+// You can specify which plugins you need
+//import { Tooltip, Toast, Popover } from 'bootstrap';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
